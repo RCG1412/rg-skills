@@ -1,0 +1,17 @@
+{
+    "name": "rgai-docs-marketplace",
+    "owner": {
+        "name": "RCG"
+    },
+    "metadata": {
+        "description": "A sample marketplace for the AI-Powered Documentation Mastery program that includes a plugin for user guide doc review.",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "ug-docs-skill",
+            "source": "./plugins/ug-docs-skill",
+            "description": "Reviewer & Generator commands, a doc-coverage skill, a doc-auditor agent, and remote MCP servers."
+        }
+    ]
+}
